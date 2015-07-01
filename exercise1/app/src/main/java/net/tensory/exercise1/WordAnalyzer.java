@@ -1,8 +1,9 @@
+package net.tensory.exercise1;
+
 /**
  * A class that analyzes words.
  */
-public class WordAnalyzer
-{
+public class WordAnalyzer {
    /**
     * Constructs an analyzer for a given word.
     * @param aWord the word to be analyzed 
@@ -16,7 +17,7 @@ public class WordAnalyzer
     * Gets the first repeated character. A character is <i>repeated</i>
     * if it occurs at least twice in adjacent positions. For example,
     * 'l' is repeated in "hollow", but 'o' is not. 
-    * @return the first repeated character, or 0 if none found
+    * @ret rn the first repeated character, or 0 if none found
     */
    public char firstRepeatedCharacter()
    {
@@ -70,7 +71,7 @@ public class WordAnalyzer
       {
          if (word.charAt(i) == word.charAt(i + 1)) // found a repetition
          {
-            if (word.charAt(i - 1) != word.charAt(i)) // it't the start
+            if (word.charAt(i - 1) != word.charAt(i)) // it's at the start
                c++;
          }
       }     
