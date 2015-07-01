@@ -24,8 +24,9 @@ public class WordAnalyzer {
     public char firstRepeatedCharacter() {
         for (int i = 0; i < word.length(); i++) {
             char ch = word.charAt(i);
-            if (ch == word.charAt(i + 1))
+            if (ch == word.charAt(i + 1)) {
                 return ch;
+            }
         }
         return 0;
     }
