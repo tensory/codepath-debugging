@@ -2,6 +2,7 @@ package net.tensory.exercise1;
 
 /**
  * A class that analyzes words.
+ * By Roger Hu, github.com/rogerhu
  */
 public class WordAnalyzer {
     /**
