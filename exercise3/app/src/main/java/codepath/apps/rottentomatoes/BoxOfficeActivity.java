@@ -15,8 +15,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-import codepath.apps.rottentomatoes.R;
-
 public class BoxOfficeActivity extends Activity {
 
     private ListView lvMovies;
